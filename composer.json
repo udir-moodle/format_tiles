@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/format_tiles",
+  "description": "Tiles format — Composer/Packagist mirror of the Moodle plugin format_tiles, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-format",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/format_tiles",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "5.1.*"
+  },
+  "extra": {
+    "installer-name": "tiles",
+    "moodle-composer": {
+      "component": "format_tiles"
+    }
+  }
+}
